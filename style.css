@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.link{
+    display: flex;
+    gap: 50px;
+    margin-left: 570px;
+    list-style-type: none;
+    margin-top: -32px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+h2{
+    font-size: 20px;
+}
+.header{
+    border: 2px solid  rgb(136, 0, 170);
+    margin-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;    
+}
+.date{
+    text-align: end;
+}
+.content{
+    max-width: 1000px;
+    margin: auto;
+    
+}
+footer{
+    border-top: 1px solid rgb(136, 0, 170);
+    margin-top: 0px;
+}
+.main-section{
+    text-align: center;
+    margin-top: 0px;
+}
+.list-books{
+    border-bottom: 4px solid rgb(136, 0, 170);
+    padding: 30px;
+}
+.add-books{
+    padding: 30px;
+}
+.book {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, .2);
+}
+
+.book:nth-child(even) {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.book:last-child {
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.book button {
+    background-color: rgb(136, 0, 170);
+    padding: .8rem 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+input{
+    width: 600px;
+    height: 30px;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.submit{
+    background-color: rgb(136, 0, 170);
+    border: none;
+    width: 120px;
+    height: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 600;
+    align-items: center;
+   cursor: pointer;
+}
+li{
+    list-style-type: none;
+    font-size: px;
+}
+.mail{
+    font-size: 15px;
+    color: rgb(136, 0, 170);
+}
+.phone{
+    font-size: 15px;
+    color: rgb(136, 0, 170);
+}
+.adress{
+    font-size: 15px;
+    color: rgb(136, 0, 170);
+}
